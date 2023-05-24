@@ -152,4 +152,4 @@ jobs:
           context: ./nginx/
           push: true
           # Тут вместо username должен быть ваш логин на DockerHub
-          tags: ${{ secrets.DOCKER_USERNAME }}/taski_gateway:latest
+          tags: ilearncode/taski_gateway:latest
